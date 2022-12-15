@@ -1,0 +1,13 @@
+#написать код для функции sum
+ar=(2,4,6)
+sum1=0
+def sum1(arr):
+    for x in arr:
+        sum1 = x+sum1
+    return sum1
+
+p=ar.sum1(ar)
+print(p)
+
+
+
